@@ -1,0 +1,92 @@
+:root {
+  --vp-c-brand-1: #13b38e;
+  --vp-c-brand-2: #13b38e;
+  --vp-c-brand-3: #13b38e;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(90deg, #13b38e 30%, #cc3aaf 40%);
+}
+
+/*Primary green button*/
+.VPButton.brand {
+  background-color: #13b38e !important;
+  border-color: #13b38e !important;
+  color: white !important;
+}
+
+/*Secondary grey button*/
+.VPButton.alt {
+  background-color: #e9e9ee !important;
+  border-color: #e9e9ee !important;
+  color: #4a4a57 !important;
+}
+
+/*Secondary pink hover effect*/
+.VPButton.alt:hover {
+  background-color: #ee9bdd !important;
+  border-color: #ee9bdd !important;
+  color: white !important;
+}
+
+/*Align homepage hero layout*/
+.VPHero .container {
+  align-items: center;
+}
+
+/*Center hero image*/
+.VPHero .image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Big hero image size and effect*/
+.VPHero .image-src {
+  max-width: 280px !important;
+  border-radius: 0 !important;
+  box-shadow:
+    -45px 20px 90px rgba(19, 179, 142, 0.40),
+     45px 35px 95px rgba(217, 75, 184, 0.75);
+}
+
+/*Adjust main title*/
+.VPHero .name {
+  font-size: 54px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.5px !important;
+}
+
+/*Style main headline title*/
+.VPHero .text {
+  font-size: 54px !important;
+  line-height: 1.05 !important;
+  font-weight: 800 !important;
+  color: #3f3f46 !important;
+}
+
+/*Tagline styling*/
+.VPHero .tagline {
+  font-size: 20px !important;
+  color: #6b7280 !important;
+  margin-top: 14px;
+}
+
+/*Homepage card styling*/
+.VPFeature {
+  border: none !important;
+  background: var(--vp-c-bg-soft) !important;
+  border-radius: 18px !important;
+}
+
+/*Icon container styling*/
+.VPFeature .icon {
+  background: var(--vp-c-bg-mute) !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+/*Limit content width for better readbility*/
+.VPDoc.has-sidebar .content-container {
+  max-width: 900px;
+}
